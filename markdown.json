@@ -1,0 +1,12 @@
+{
+  "checkbox": {
+    "prefix": "[ ",
+    "body": ["☐"],
+    "description": "checkbox unicode"
+  },
+  "checkbox checked": {
+    "prefix": "[X",
+    "body": ["☑"],
+    "description": "checkbox checked unicode"
+  }
+}
