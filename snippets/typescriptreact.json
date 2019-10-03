@@ -29,5 +29,33 @@
       ""
     ],
     "description": "structure de base pour un composent react"
+  },
+  "Nouveau composant connecte": {
+    "prefix": "comco",
+    "body": [
+      "import * as React from 'react'",
+      "import { connect } from 'react-redux'",
+      "import { ${1:ComponentName} } from '${2:component-path}'",
+      "",
+      "export interface OwnProps {}",
+      "interface StateProps {}",
+      "interface DispatchProps {}",
+      "",
+      "type Props = OwnProps & StateProps & DispatchProps",
+      "",
+      "const mapState = (state, ownProps: OwnProps): StateProps => {",
+      "  return {}",
+      "}",
+      "",
+      "const mapDispatch = (dispatch): DispatchProps => {",
+      "  return {}",
+      "}",
+      "",
+      "export const Connected$1 = connect<StateProps, DispatchProps, OwnProps>(",
+      "  mapState,",
+      "  mapDispatch",
+      ")($1)"
+    ],
+    "description": "Connected React Component"
   }
 }
