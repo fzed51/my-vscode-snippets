@@ -1,0 +1,32 @@
+{
+  "Nouveau composant connecte": {
+    "prefix": "comco",
+    "body": [
+      "import { connect } from 'react-redux'",
+      "import { Dispatch } from 'redux'",
+      "import { ${2:ComponentName} as Pure$2 } from '${1:component-path}'",
+      "import { ${4:StateType} as StateType } from '${3:state-type-path}'",
+      "import { ${6:ActionType} as ActionType } from '${5:action-type-path}'",
+      "",
+      "export interface iConnected$2Props {}",
+      "interface iStateProps {}",
+      "interface iDispatchProps {}",
+      "",
+      "type Props = iConnected$2Props & StateProps & DispatchProps",
+      "",
+      "const mapState = (state: StateType, props: iConnected$2Props): StateProps => {",
+      "  return {}",
+      "}",
+      "",
+      "const mapDispatch = (dispatch: Dispatch<ActionType>, props: iConnected$2Props): DispatchProps => {",
+      "  return {}",
+      "}",
+      "",
+      "export const $2 = connect<StateProps, DispatchProps, iConnected$2Props>(",
+      "  mapState,",
+      "  mapDispatch",
+      ")(Pure$2)"
+    ],
+    "description": "Connected React Component"
+  }
+}
