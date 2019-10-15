@@ -1,0 +1,29 @@
+{
+  "Nouveau composant connecte": {
+    "prefix": "comco",
+    "body": [
+      "import * as React from 'react'",
+      "import { connect } from 'react-redux'",
+      "import { ${1:ComponentName} } from '${2:component-path}'",
+      "",
+      "const mapState = (state, ownProps) => {",
+      "  return undefined",
+      "}",
+      "",
+      "const mapDispatch = (dispatch) => { ",
+      "  return undefined",
+      "}",
+      "",
+      "export const Connected$1 = connect(",
+      "  mapState,",
+      "  mapDispatch",
+      ")($1)"
+    ],
+    "description": "Connected React Component"
+  },
+  "console": {
+    "prefix": "cl",
+    "body": ["console.log($1);"],
+    "description": "console.log"
+  }
+}
