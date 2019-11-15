@@ -12,6 +12,8 @@
   "Nouveau composant": {
     "prefix": "compo",
     "body": [
+      "import * as React from 'react';", 
+      "",
       "export interface i$1Props {$2}",
       "",
       "interface i$1State {$3}",

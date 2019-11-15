@@ -20,10 +20,5 @@
       ")($1)"
     ],
     "description": "Connected React Component"
-  },
-  "console": {
-    "prefix": "cl",
-    "body": ["console.log($1);"],
-    "description": "console.log"
   }
 }

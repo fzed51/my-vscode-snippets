@@ -12,6 +12,8 @@
   "class component": {
     "prefix": "compo",
     "body": [
+      "import React from 'react';",
+      "",
       "export class $1 extends React.Component",
       "{",
       "  constructor(props){",
