@@ -59,6 +59,22 @@
         "path": "./snippets/typescriptreact.json"
       },
       {
+        "language": "javascript",
+        "path": "./snippets/common-javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/common-javascript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/common-javascript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/common-javascript.json"
+      },
+      {
         "language": "markdown",
         "path": "./snippets/markdown.json"
       },
