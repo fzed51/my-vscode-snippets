@@ -1,0 +1,71 @@
+{
+  "name": "vscode-cityzen-snippet",
+  "publisher": "fzed51",
+  "displayName": "Snippet Cityzen",
+  "icon": "media/logo-cityzen-vscode-256.png",
+  "galleryBanner": {
+    "color": "#F391D0",
+    "theme": "light"
+  },
+  "version": "0.1.0",
+  "description": "Collection de snippets destiné à vscode pour faciliter la vie des développeurs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzed51/my-vscode-snippets.git"
+  },
+  "keywords": [
+    "vscode",
+    "snippet",
+    "javascript",
+    "typescript",
+    "react",
+    "php"
+  ],
+  "author": {
+    "name": "Fabien Sanchez",
+    "email": "fzed51+code@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fzed51/my-vscode-snippets/issues"
+  },
+  "homepage": "https://github.com/fzed51/my-vscode-snippets#readme",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascriptreact.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/typescriptreact.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/markdown.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/php.json"
+      }
+    ]
+  }
+}
