@@ -32,7 +32,7 @@
   "console.group": {
     "prefix": "cg",
     "body": ["console.group($1);", "$2", "console.groupEnd();"],
-    "description": "Code snippet for \"console.warn\""
+    "description": "Code snippet for \"console.group\""
   },
   "debugger": {
     "prefix": "de",
