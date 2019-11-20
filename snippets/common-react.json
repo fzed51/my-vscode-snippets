@@ -1,0 +1,14 @@
+{
+  "console pour composant react": {
+    "prefix": "creact",
+    "body": [
+      "console.group($1);",
+      "console.log('props :')",
+      "console.dir(this.props)",
+      "console.log('state :')",
+      "console.dir(this.state)",
+      "console.groupEnd();"
+    ],
+    "description": "Code snippet for \"console.group\" with props & state"
+  }
+}

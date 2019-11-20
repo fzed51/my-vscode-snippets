@@ -45,34 +45,42 @@
       {
         "language": "javascript",
         "path": "./snippets/javascript.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/typescript.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/javascriptreact.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/typescriptreact.json"
-      },
+      }, 
       {
         "language": "javascript",
         "path": "./snippets/common-javascript.json"
       },
       {
         "language": "typescript",
+        "path": "./snippets/typescript.json"
+      }, 
+      {
+        "language": "typescript",
         "path": "./snippets/common-javascript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascriptreact.json"
       },
       {
         "language": "javascriptreact",
         "path": "./snippets/common-javascript.json"
       },
       {
+        "language": "javascriptreact",
+        "path": "./snippets/common-react.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/typescriptreact.json"
+      },
+      {
         "language": "typescriptreact",
         "path": "./snippets/common-javascript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/common-react.json"
       },
       {
         "language": "markdown",
